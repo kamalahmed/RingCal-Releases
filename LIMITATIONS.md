@@ -1,7 +1,9 @@
 # Beta scope and known limitations
 
-Physical acceptance is limited to a selected Galaxy Z Fold8 on Android 17 / One UI 9,
-with its outer and inner screens. Broader phones, Android versions, vendor restrictions
+Physical checks are limited to a selected Galaxy Z Fold8 on Android 17 / One UI 9.
+The owner accepted this beta after reviewing its UI and hearing the timed alarm.
+Fresh cover-screen and human TalkBack observations for this exact beta remain
+unverified; earlier inner/outer checks retain their own version scope. Broader phones, Android versions, vendor restrictions
 and transfer behavior remain unverified. Emulator and automated tests do not establish
 audible output or compatibility on every physical device. Read the individual release
 notes for changes and evidence relevant to that version.

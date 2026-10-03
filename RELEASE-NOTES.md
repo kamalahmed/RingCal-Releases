@@ -1,7 +1,7 @@
 # RingCal 0.9.0-beta.1
 
-First GitHub beta distribution, versionCode 14. This document describes the candidate;
-an installable beta exists only after its GitHub Release is published with APK assets.
+First GitHub beta distribution, versionCode 14. The signed APK is available from the
+[published release](https://github.com/kamalahmed/RingCal-Releases/releases/tag/v0.9.0-beta.1).
 
 - New reminder forms start at the current local time and retain your selected calendar date.
 - Added daily, weekly, monthly and yearly repeating tasks. Complete finishes the selected occurrence and keeps future repeats; End repeating task is a separate confirmed action.
@@ -23,10 +23,14 @@ Reminder storage remains non-destructive. Calendar, alarm options, sounds, snooz
 event-driven recovery retain the established behavior.
 
 The beta's physical scope is the selected Galaxy Z Fold8 / Android 17 / One UI 9,
-including outer/inner screens. Wider physical compatibility is unverified. Detection of
+with a normal same-signature update from beta 13 to beta 14 update preserving reminders, preferences and real
+future alarm registrations. The owner confirms the 02:10 timed alarm sound and accepts
+the current UI for release. Fresh cover/TalkBack observations for this exact beta and
+wider physical compatibility remain unverified. Detection of
 a higher future version is tested with private fixtures, without a fabricated public
-release. A current-version check against this release can be verified after publication;
-it does not establish a later-version installation path on every device.
+release. The exact public download is verified against the tested APK and persistent signing
+certificate before the update feed is advanced. Later-version installation on every
+device is not established by this first release.
 
 See [limitations](LIMITATIONS.md) for power-off, first-unlock, force-stop, platform access,
 volume/routes, quiet delivery, file-provider, backup and developer-verification limits.
