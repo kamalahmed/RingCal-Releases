@@ -1,6 +1,14 @@
 {
-  "schemaVersion": 1,
-  "packageName": "com.kamalahmed.ringcal",
   "channel": "beta",
-  "release": null
+  "packageName": "com.kamalahmed.ringcal",
+  "release": {
+    "apkUrl": "https://github.com/kamalahmed/RingCal-Releases/releases/download/v0.9.0-beta.1/RingCal-0.9.0-beta.1.apk",
+    "minSdk": 26,
+    "releaseUrl": "https://github.com/kamalahmed/RingCal-Releases/releases/tag/v0.9.0-beta.1",
+    "sha256": "481f9de837677db4e044ebccd85906404b6bfc0a68d64339c98a0f95f0d696da",
+    "sizeBytes": 2720321,
+    "versionCode": 14,
+    "versionName": "0.9.0-beta.1"
+  },
+  "schemaVersion": 1
 }
