@@ -33,18 +33,18 @@ examples created for this gallery.** Tap any image to view it at full size.
 
 <table>
 <tr>
-<td align="center"><a href="screenshots/calendar-light.png"><img src="screenshots/calendar-light.png" alt="Light calendar and reminders on the selected date" width="240"></a><br><b>Your day, in context</b></td>
-<td align="center"><a href="screenshots/upcoming.png"><img src="screenshots/upcoming.png" alt="Upcoming reminders grouped by date" width="240"></a><br><b>What comes next</b></td>
-<td align="center"><a href="screenshots/reminder-form.png"><img src="screenshots/reminder-form.png" alt="New monthly donation reminder with date, time and sound" width="240"></a><br><b>Set something worth remembering</b></td>
+<td align="center" width="33%" valign="top"><a href="screenshots/calendar-light.png"><img src="screenshots/calendar-light.png" alt="Light calendar and reminders on the selected date" width="240"></a><br><b>Your day, in context</b></td>
+<td align="center" width="33%" valign="top"><a href="screenshots/upcoming.png"><img src="screenshots/upcoming.png" alt="Upcoming reminders grouped by date" width="240"></a><br><b>What comes next</b></td>
+<td align="center" width="33%" valign="top"><a href="screenshots/reminder-form.png"><img src="screenshots/reminder-form.png" alt="New monthly donation reminder with date, time and sound" width="240"></a><br><b>Set something worth remembering</b></td>
 </tr>
 <tr>
-<td align="center"><a href="screenshots/repeat-choices.png"><img src="screenshots/repeat-choices.png" alt="None, daily, weekly, monthly and yearly repeat choices" width="240"></a><br><b>Build a rhythm</b></td>
-<td align="center"><a href="screenshots/sound-picker.png"><img src="screenshots/sound-picker.png" alt="Named selected alarm sound and icon preview controls" width="240"></a><br><b>Choose how it sounds</b></td>
-<td align="center"><a href="screenshots/ringing.png"><img src="screenshots/ringing.png" alt="Ringing reminder with snooze and dismiss controls" width="240"></a><br><b>A real alarm when it matters</b></td>
+<td align="center" width="33%" valign="top"><a href="screenshots/repeat-choices.png"><img src="screenshots/repeat-choices.png" alt="None, daily, weekly, monthly and yearly repeat choices" width="240"></a><br><b>Build a rhythm</b></td>
+<td align="center" width="33%" valign="top"><a href="screenshots/sound-picker.png"><img src="screenshots/sound-picker.png" alt="Named selected alarm sound and icon preview controls" width="240"></a><br><b>Choose how it sounds</b></td>
+<td align="center" width="33%" valign="top"><a href="screenshots/ringing.png"><img src="screenshots/ringing.png" alt="Ringing reminder with snooze and dismiss controls" width="240"></a><br><b>A real alarm when it matters</b></td>
 </tr>
 <tr>
-<td align="center"><a href="screenshots/settings-dark.png"><img src="screenshots/settings-dark.png" alt="RingCal settings in dark appearance" width="240"></a><br><b>Make it feel like yours</b></td>
-<td colspan="2">Light, Dark and System appearance. Native Android controls, readable type, large touch targets, and layouts that adapt to the space available.</td>
+<td align="center" width="33%" valign="top"><a href="screenshots/settings-dark.png"><img src="screenshots/settings-dark.png" alt="RingCal settings in dark appearance" width="240"></a><br><b>Make it feel like yours</b></td>
+<td colspan="2" width="67%" valign="middle">Light, Dark and System appearance. Native Android controls, readable type, large touch targets, and layouts that adapt to the space available.</td>
 </tr>
 </table>
 
