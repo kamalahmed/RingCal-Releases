@@ -1,6 +1,8 @@
 # Beta scope and known limitations
 
-Version 0.9.0-beta.3 is an experimental Android 15 alarm compatibility update.
+Version 0.9.0-beta.6 is an experimental GitHub beta with clearer alarm setup,
+sound tabs and native Help/About. It retains the sustained-alarm configuration
+from beta.3. Physical-phone acceptance of this new build is pending.
 Stock Android 15/16 emulator checks cover sustained playback; validation on the
 affected Nothing phone and a fresh Galaxy Z Fold8 check are pending. The earlier
 0.9.0-beta.1 was accepted by the owner after reviewing its UI and hearing a timed
