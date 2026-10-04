@@ -1,12 +1,15 @@
 # Beta scope and known limitations
 
-Physical checks are limited to a selected Galaxy Z Fold8 on Android 17 / One UI 9.
-The owner accepted this beta after reviewing its UI and hearing the timed alarm.
-Fresh cover-screen and human TalkBack observations for this exact beta remain
-unverified; earlier inner/outer checks retain their own version scope. Broader phones, Android versions, vendor restrictions
-and transfer behavior remain unverified. Emulator and automated tests do not establish
-audible output or compatibility on every physical device. Read the individual release
-notes for changes and evidence relevant to that version.
+Version 0.9.0-beta.3 is an experimental Android 15 alarm compatibility update.
+Stock Android 15/16 emulator checks cover sustained playback; validation on the
+affected Nothing phone and a fresh Galaxy Z Fold8 check are pending. The earlier
+0.9.0-beta.1 was accepted by the owner after reviewing its UI and hearing a timed
+alarm on a selected Galaxy Z Fold8 / Android 17 / One UI 9. That acceptance does not
+establish physical acceptance of this version. Fresh cover-screen and human TalkBack
+observations remain unverified. Broader phones, vendor restrictions and transfer
+behavior remain unverified. Emulator and automated tests do not establish human
+audibility or compatibility on every physical device. Read each version's release
+notes for its changes and evidence.
 
 - A powered-off phone cannot ring. After restart, first unlock is required before
   RingCal can read local reminders and restore future alarms; there is no direct boot.

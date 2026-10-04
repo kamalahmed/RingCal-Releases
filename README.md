@@ -9,7 +9,7 @@ with real alarms, repeating tasks and room for your day.
 
 **By Kamal Ahmed · Android 8.0+ · Works offline · No account, ads or analytics**
 
-[**Download the latest beta**](https://github.com/kamalahmed/RingCal-Releases/releases/download/v0.9.0-beta.1/RingCal-0.9.0-beta.1.apk) · [Release notes](RELEASE-NOTES.md) · [All releases](https://github.com/kamalahmed/RingCal-Releases/releases)
+[**Download the latest beta**](https://github.com/kamalahmed/RingCal-Releases/releases/download/v0.9.0-beta.3/RingCal-0.9.0-beta.3.apk) · [Release notes](RELEASE-NOTES.md) · [All releases](https://github.com/kamalahmed/RingCal-Releases/releases)
 
 <img src="screenshots/calendar-wide.png" alt="RingCal's wide calendar with example reminders beside the selected day" width="900">
 
@@ -110,8 +110,8 @@ There is no export or backup feature in this beta.
 
 ## Install RingCal
 
-1. Download **RingCal-0.9.0-beta.1.apk** using the button above or the
-   [published release](https://github.com/kamalahmed/RingCal-Releases/releases/tag/v0.9.0-beta.1).
+1. Download **RingCal-0.9.0-beta.3.apk** using the button above or the
+   [published release](https://github.com/kamalahmed/RingCal-Releases/releases/tag/v0.9.0-beta.3).
    GitHub's “Source code” archives contain distribution documents, not the app.
 2. Open the APK from Downloads. If Android asks, allow **Install unknown apps**
    for the browser or file manager opening it, then approve installation. You can
@@ -119,11 +119,12 @@ There is no export or backup feature in this beta.
 3. Open RingCal and review **Settings → Alarm reliability**. Installation permission
    and alarm/notification access are separate Android settings.
 
-This is **0.9.0-beta.1, version code 14**, for Android 8.0/API 26 and later. Physical
-checks used a Galaxy Z Fold8 on Android 17 / One UI 9, including a normal update that
-kept reminders, preferences and future alarm registrations. The owner accepted this
-beta after checking its UI and hearing the timed alarm. Wider device compatibility
-and fresh cover-screen/TalkBack observations for this exact beta remain unverified.
+This is **0.9.0-beta.3, version code 16**, an experimental update for Android
+8.0/API 26 and later. It addresses scheduled alarms showing “Audio focus unavailable”
+on Android 15 while keeping sustained alarm playback. Android 15/16 emulator checks
+pass; validation on the affected Nothing phone and a fresh Fold check are pending.
+The earlier beta.1 was checked on the owner's Galaxy Z Fold8 / Android 17.
+Read the [release notes](RELEASE-NOTES.md) for this version's scope.
 
 If Android blocks installation or reports a signature conflict, keep the installed
 app and inspect the message. **Do not uninstall RingCal or clear its storage to

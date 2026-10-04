@@ -1,38 +1,37 @@
-# RingCal 0.9.0-beta.1
+# RingCal 0.9.0-beta.3
 
-First GitHub beta distribution, versionCode 14. The signed APK is available from the
-[published release](https://github.com/kamalahmed/RingCal-Releases/releases/tag/v0.9.0-beta.1).
+Experimental alarm compatibility update, versionCode 16, for testing the in-app
+update path and the reported Android 15 sound failure.
 
-- New reminder forms start at the current local time and retain your selected calendar date.
-- Added daily, weekly, monthly and yearly repeating tasks. Complete finishes the selected occurrence and keeps future repeats; End repeating task is a separate confirmed action.
-- Repeated dates appear in Calendar and Upcoming. Editing changes the original series.
-- Selected alarm sounds show their names and selection clearly; preview uses play/pause controls.
-- Balanced the Review alarm setup badge.
-- Added automatic beta checks on foreground return, throttled to approximately once
-  per 24 hours, and an explicit Check for updates action in Settings.
-- Added installed/available version information and a dismissible update offer that
-  waits during ringing and other focused interactions. Settings retains the download
-  action for an available version after the offer is dismissed.
-- Download update opens the exact GitHub APK in the system browser. Downloading and
-  installation require your action; there is no silent installation.
-- Added public installation, privacy and limitations documents. Update checks contact
-  GitHub; reminder content is not included. Local reminder/alarm behavior stays offline.
+- Addresses scheduled alarms reporting “Audio focus unavailable” on Android 15,
+  even though sound previews work and the alarm notification appears.
+- Keeps full sustained alarm playback, saved sound/repeat/duration settings,
+  vibration, snooze and dismiss. The alarm continues using the alarm volume.
+- Uses the existing package and signing key so it can update the installed beta
+  without uninstalling or clearing reminders. Reminder storage remains unchanged.
 
-The same package and persistent signing identity preserve compatible update continuity.
-Reminder storage remains non-destructive. Calendar, alarm options, sounds, snooze and
-event-driven recovery retain the established behavior.
+Stock Android 15/16 emulator checks demonstrate native playback after an ordinary
+background process death with full-screen access denied. Android 15 playback continues
+for 90 seconds across notification-shade opening, advances queued alarms and stops
+at the saved deadlines. Automated checks also cover reminders and preferences being
+preserved by an ordinary same-signature update. These are emulator observations,
+not human audibility or physical-phone acceptance. Validation on the affected Nothing
+phone and a fresh Fold check are pending; this experimental release is intended to
+obtain that feedback.
 
-The beta's physical scope is the selected Galaxy Z Fold8 / Android 17 / One UI 9,
-with a normal same-signature update from beta 13 to beta 14 update preserving reminders, preferences and real
-future alarm registrations. The owner confirms the 02:10 timed alarm sound and accepts
-the current UI for release. Fresh cover/TalkBack observations for this exact beta and
-wider physical compatibility remain unverified. Detection of
-a higher future version is tested with private fixtures, without a fabricated public
-release. The exact public download is verified against the tested APK and persistent signing
-certificate before the update feed is advanced. Later-version installation on every
-device is not established by this first release.
+To test updating, open **Settings → Updates → Check for updates**, then tap
+**Download update**. Download the APK, open it and approve Android's update prompt.
+Install over the existing app; **do not uninstall or clear storage**. Automatic
+checks on foreground return run approximately once per 24 hours, so use the manual
+check for an immediate result. Detection is automatic; download and installation
+require your action.
 
-See [limitations](LIMITATIONS.md) for power-off, first-unlock, force-stop, platform access,
-volume/routes, quiet delivery, file-provider, backup and developer-verification limits.
-There is no Google Play submission, account, analytics, advertising, backup/export/sync,
-automatic APK download or mandatory update.
+After updating, test an explicit short-future reminder with your chosen sound and
+long duration, then leave the app and lock the screen. Confirm that the actual alarm
+plays, continues for the chosen duration and stops with Dismiss. Sound-selector
+preview alone does not establish scheduled alarm playback.
+
+See [limitations](LIMITATIONS.md) for platform access, power-off, first-unlock,
+force-stop, volume, Do Not Disturb, routes, file providers and direct installation.
+There is no Google Play submission, silent install, mandatory update or reminder
+content sent with update checks.
